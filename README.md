@@ -1,2 +1,2 @@
 # GestioPersones
-Petit programa que ens permet gestionar la informació personal de persones. La informació queda desada en un fitxer CSV.
+Aplicació que permet gestionar la informació personal de persones. La informació queda emmagatzemada en un fitxer CSV.

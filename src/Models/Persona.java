@@ -31,9 +31,7 @@ public class Persona implements Comparable<Persona> {
         this.edat = edat;
     }
 
-    /**
-     * Getters i Setters
-     */
+    /* Getters i Setters */
     public String getDni() {
         return dni;
     }
