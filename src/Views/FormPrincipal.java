@@ -28,9 +28,7 @@ public class FormPrincipal extends javax.swing.JFrame {
         initComponents();
     }
 
-    /**
-     * Getters i Setters
-     */
+    /* Getters i Setters */
     public JButton getBtnAnterior() {
         return btnAnterior;
     }
