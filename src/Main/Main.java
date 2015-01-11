@@ -53,7 +53,7 @@ public class Main {
                 GestioPersones model = new GestioPersones();
                 FormPrincipal view = new FormPrincipal();
                 Controller controller = new Controller(model, view);
-                view.setIconImage(new ImageIcon(getClass().getResource("/resources/icon.png")).getImage());
+                view.setIconImage(new ImageIcon(getClass().getResource("/Resources/icon.png")).getImage());
                 view.setLocationRelativeTo(null);
                 view.setVisible(true);
                 controller.control();

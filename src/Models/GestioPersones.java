@@ -36,7 +36,7 @@ public class GestioPersones extends LinkedList<Persona> {
      */
     @Override
     public boolean add(Persona persona) {
-        this.posicio = size();
+        posicio = size();
         return super.add(persona);
     }
 
@@ -57,14 +57,14 @@ public class GestioPersones extends LinkedList<Persona> {
     /**
      * Mètode que retorna la posició de la última persona
      */
-    public void ultimaPersona() {
+    public void ultimaPosicio() {
         posicio = (size() - 1);
     }
 
     /**
-     * Mètode que retorna la posició de la primera persona
+     * Mètode que retorna la primera posició
      */
-    public void primeraPersona() {
+    public void primeraPosicio() {
         posicio = 0;
     }
 

@@ -126,7 +126,7 @@ public class Controller {
      */
     private void eventBtnPrimer() {
         // Apuntem a la primera posició
-        model.primeraPersona();
+        model.primeraPosicio();
         // Fem que és mostrin les dades d'aquesta
         view.mostrarDadesPersona(model.getPersona());
         // Actualitzar label registre
@@ -138,7 +138,7 @@ public class Controller {
      */
     private void eventBtnDarrer() {
         // Apuntem a la l'úlima posició
-        model.ultimaPersona();
+        model.ultimaPosicio();
         // Fem que és mostrin les dades d'aquesta
         view.mostrarDadesPersona(model.getPersona());
         // Actualitzar label registre
@@ -203,7 +203,7 @@ public class Controller {
         // Hi ha registres
         if (model.size() > 0) {
             // Apuntem a la primera posició de la llista
-            model.primeraPersona();
+            model.primeraPosicio();
             // Mostrem les seves dades
             view.mostrarDadesPersona(model.getPersona());
             // Activem els botons i desactivem els de desa i cancel·la
@@ -249,7 +249,7 @@ public class Controller {
                     view.nouRegistre();
                 } else {
                     // Mostrem les dades de la primera persona de la llista
-                    model.primeraPersona();
+                    model.primeraPosicio();
                     view.mostrarDadesPersona(model.getPersona());
                 }
 
