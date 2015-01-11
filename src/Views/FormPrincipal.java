@@ -7,11 +7,7 @@ package Views;
 
 import Models.Persona;
 import javax.swing.JButton;
-import javax.swing.JLabel;
 import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-import javax.swing.JTextField;
-import javax.swing.JToolBar;
 
 /**
  * Classe Form principal vista principal de l'aplicació Gestió de Persones
@@ -28,13 +24,9 @@ public class FormPrincipal extends javax.swing.JFrame {
         initComponents();
     }
 
-    /* Getters i Setters */
+    /* Getters necessaris */
     public JButton getBtnAnterior() {
         return btnAnterior;
-    }
-
-    public void setBtnAnterior(JButton btnAnterior) {
-        this.btnAnterior = btnAnterior;
     }
 
     public JButton getBtnCancela() {
@@ -49,160 +41,28 @@ public class FormPrincipal extends javax.swing.JFrame {
         return btnDarrer;
     }
 
-    public void setBtnDarrer(JButton btnDarrer) {
-        this.btnDarrer = btnDarrer;
-    }
-
     public JButton getBtnDesa() {
         return btnDesa;
-    }
-
-    public void setBtnDesa(JButton btnDesa) {
-        this.btnDesa = btnDesa;
     }
 
     public JButton getBtnEdita() {
         return btnEdita;
     }
 
-    public void setBtnEdita(JButton btnEdita) {
-        this.btnEdita = btnEdita;
-    }
-
     public JButton getBtnEsborra() {
         return btnEsborra;
-    }
-
-    public void setBtnEsborra(JButton btnEsborra) {
-        this.btnEsborra = btnEsborra;
     }
 
     public JButton getBtnNou() {
         return btnNou;
     }
 
-    public void setBtnNou(JButton btnNou) {
-        this.btnNou = btnNou;
-    }
-
     public JButton getBtnPrimer() {
         return btnPrimer;
     }
 
-    public void setBtnPrimer(JButton btnPrimer) {
-        this.btnPrimer = btnPrimer;
-    }
-
     public JButton getBtnSeguent() {
         return btnSeguent;
-    }
-
-    public void setBtnSeguent(JButton btnSeguent) {
-        this.btnSeguent = btnSeguent;
-    }
-
-    public JLabel getLblCognom1() {
-        return lblCognom1;
-    }
-
-    public void setLblCognom1(JLabel lblCognom1) {
-        this.lblCognom1 = lblCognom1;
-    }
-
-    public JLabel getLblCognom2() {
-        return lblCognom2;
-    }
-
-    public void setLblCognom2(JLabel lblCognom2) {
-        this.lblCognom2 = lblCognom2;
-    }
-
-    public JLabel getLblDni() {
-        return lblDni;
-    }
-
-    public void setLblDni(JLabel lblDni) {
-        this.lblDni = lblDni;
-    }
-
-    public JLabel getLblEdat() {
-        return lblEdat;
-    }
-
-    public void setLblEdat(JLabel lblEdat) {
-        this.lblEdat = lblEdat;
-    }
-
-    public JLabel getLblNom() {
-        return lblNom;
-    }
-
-    public void setLblNom(JLabel lblNom) {
-        this.lblNom = lblNom;
-    }
-
-    public JLabel getLblRegistre() {
-        return lblRegistre;
-    }
-
-    public void setLblRegistre(JLabel lblRegistre) {
-        this.lblRegistre = lblRegistre;
-    }
-
-    public JPanel getPanelDades() {
-        return panelDades;
-    }
-
-    public void setPanelDades(JPanel panelDades) {
-        this.panelDades = panelDades;
-    }
-
-    public JToolBar getToolBarMenu() {
-        return toolBarMenu;
-    }
-
-    public void setToolBarMenu(JToolBar toolBarMenu) {
-        this.toolBarMenu = toolBarMenu;
-    }
-
-    public JTextField getTxtFieldCognom1() {
-        return txtFieldCognom1;
-    }
-
-    public void setTxtFieldCognom1(JTextField txtFieldCognom1) {
-        this.txtFieldCognom1 = txtFieldCognom1;
-    }
-
-    public JTextField getTxtFieldCognom2() {
-        return txtFieldCognom2;
-    }
-
-    public void setTxtFieldCognom2(JTextField txtFieldCognom2) {
-        this.txtFieldCognom2 = txtFieldCognom2;
-    }
-
-    public JTextField getTxtFieldDni() {
-        return txtFieldDni;
-    }
-
-    public void setTxtFieldDni(JTextField txtFieldDni) {
-        this.txtFieldDni = txtFieldDni;
-    }
-
-    public JTextField getTxtFieldEdat() {
-        return txtFieldEdat;
-    }
-
-    public void setTxtFieldEdat(JTextField txtFieldEdat) {
-        this.txtFieldEdat = txtFieldEdat;
-    }
-
-    public JTextField getTxtFieldNom() {
-        return txtFieldNom;
-    }
-
-    public void setTxtFieldNom(JTextField txtFieldNom) {
-        this.txtFieldNom = txtFieldNom;
     }
 
     /**
