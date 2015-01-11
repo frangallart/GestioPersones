@@ -591,7 +591,7 @@ public class FormPrincipal extends javax.swing.JFrame {
      * @param title títol a mostrar
      */
     public void missatgeError(String message, String title) {
-        JOptionPane.showMessageDialog(this, message, title, 
+        JOptionPane.showMessageDialog(this, message, title,
                 JOptionPane.ERROR_MESSAGE);
     }
 }

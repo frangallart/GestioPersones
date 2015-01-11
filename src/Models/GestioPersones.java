@@ -71,7 +71,7 @@ public class GestioPersones extends LinkedList<Persona> {
     /**
      * Mètode que retorna la posició real de la llista, la qual estem apuntant
      *
-     * @return la posició actual
+     * @return la posició real
      */
     public int getPosicio() {
         return posicio;

@@ -20,7 +20,13 @@ public class Persona implements Comparable<Persona> {
     private int edat;
 
     /**
-     * Constructor
+     * Constructor d'una Persona
+     *
+     * @param dni el seu DNI
+     * @param nom el nom de la persona
+     * @param cognom1 el primer cognom de la persona
+     * @param cognom2 el segon cognom de la persona
+     * @param edat l'edat de la persona
      */
     public Persona(String dni, String nom, String cognom1, String cognom2,
             int edat) {
