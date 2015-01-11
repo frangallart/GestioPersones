@@ -565,20 +565,20 @@ public class FormPrincipal extends javax.swing.JFrame {
                             valid = true;
                         } else {
                             missatgeError("Edat incorrecte, ha de ser entre 1 i"
-                                    + " 999.");
+                                    + " 999.", "Error");
                         }
                     } else {
-                        missatgeError("El segon cognom no és vàlid.");
+                        missatgeError("El segon cognom no és vàlid.", "Error");
                     }
                 } else {
-                    missatgeError("El primer cognom no és vàlid.");
+                    missatgeError("El primer cognom no és vàlid.", "Error");
                 }
             } else {
-                missatgeError("El nom no és vàlid.");
+                missatgeError("El nom no és vàlid.", "Error");
             }
         } else {
             missatgeError("DNI incorrecte. Un dni correcte està format per 8 "
-                    + "números seguits d'una lletra majúscula");
+                    + "números seguits d'una lletra majúscula", "Error");
         }
         return valid;
     }
@@ -587,10 +587,11 @@ public class FormPrincipal extends javax.swing.JFrame {
      * Mètode que ens permet mostra un quadre d'error amb el missatge passat per
      * paràmetre
      *
-     * @param miss missatge d'error que volem mostrar
+     * @param message missatge d'error que volem mostrar
+     * @param title títol a mostrar
      */
-    public void missatgeError(String miss) {
-        JOptionPane.showMessageDialog(this, miss, "Error",
+    public void missatgeError(String message, String title) {
+        JOptionPane.showMessageDialog(this, message, title, 
                 JOptionPane.ERROR_MESSAGE);
     }
 }
